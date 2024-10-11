@@ -3,4 +3,16 @@
 #A script to install odoo
 #########################################################
 
-echo "This is a test"
+USER="odoo17"
+VERSION="17.0"
+
+
+
+echo -e "\n---------- Update Server ----------"
+sudo apt-get update
+sudo apt-get upgrade -y
+
+
+
+
+
